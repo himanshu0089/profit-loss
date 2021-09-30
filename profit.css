@@ -1,0 +1,62 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin:2px;
+     background-color:var(--primary-color);
+}
+:root {
+    --primary-color:#002147;  
+    --secondary-color:#3b3c36;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280
+    }
+h1
+{
+      margin-left:28%;
+      margin-top:12%;
+      color:white;
+     font-size:170%;
+     padding-left:3rem;
+}
+#initial-price
+{
+    display:block;
+     height:2rem;
+     margin-top:0.5rem;
+      margin-left:28%;
+    width:30%;
+   background-color:var(--secondary-color);
+}
+#current-price
+{
+   display:block;  
+    height:2rem;
+      margin-top:0.5rem;
+      margin-left:28%;
+    width:30%;
+   background-color:var(--secondary-color);
+}
+#no-of-stocks
+{
+    display:block;  
+   height:2rem;
+    margin-top:0.5rem;
+      margin-left:28%;
+    width:30%;
+    background-color:var(--off-white);
+}
+ #tell
+{
+    margin-left:28%;
+  margin-top:0.5rem;
+    background-color:var(--off-white);
+    width:30.5%;
+     height:2rem;
+}
+ #output
+{
+     text-align:center;
+     color:var(--off-white);
+}
