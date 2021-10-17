@@ -11,12 +11,14 @@ function profitLoss( )
      if(ip>cp)
    {
        var loss=(ip-cp)*totalStocks;
-       showMessage("your loss for this trade is  "+loss);
+         var lossPercentage=(loss*100)/(cp*totalStocks);
+         showMessage("your loss for this trade is " +loss+" and percentage is "+lossPercentage+ "%");
    }  
     else if(cp>ip)
   {
      var profit=(cp-ip)*totalStocks;
-     showMessage("your profit for this trade is " +profit);
+    var profitPercentage=(profit*100)/(ip*totalStocks);
+     showMessage("your Profit for this trade is " +profit+" and percentage is "+profitPercentage+ "%");
   }
   else
  {
